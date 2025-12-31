@@ -3,10 +3,10 @@ import { Link, useParams } from 'react-router';
 
 const OrderPage = () => {
 
-    const { id } = useParams()
+    const { username } = useParams()
     return (
         <div>
-            <h1>Bonjour {id}</h1>
+            <h1>Bonjour {username}</h1>
             <Link to="/"><Button label={"Deconnexion"} /></Link>
         </div>
     );

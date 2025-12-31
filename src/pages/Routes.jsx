@@ -10,7 +10,7 @@ const Routes = () => {
             element: <LoginPage />,
         },
         {
-            path: "/order/:id?",
+            path: "/order/:username?",
             element: <OrderPage />,
         },
         {
