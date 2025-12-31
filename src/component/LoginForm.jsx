@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import Button from './Button';
 
 const LoginForm = () => {
     const [prenom, setPrenom] = useState('')
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        alert("bonjour " + prenom)
         setPrenom('')
     }
 
